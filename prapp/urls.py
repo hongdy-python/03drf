@@ -9,4 +9,5 @@ urlpatterns = [
     # 匹配携带参数的路由
     path("users/<str:id>/", views.UserView.as_view()),
     path("api_user/", views.UserAPIView.as_view()),
+    path("stu/", views.StudentAPIView.as_view()),
 ]

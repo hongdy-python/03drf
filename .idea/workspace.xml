@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c19b0ba8-db71-48b4-913a-5dcb08318685" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/errorapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errorapp/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drf_day01/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drf_day01/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drf_day01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drf_day01/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/prapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/prapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/pic" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2345Downloads\Software\drf_day01\media\pic" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="drf_day01" type="Python.DjangoServer" factoryName="Django server">
@@ -92,6 +104,9 @@
       <workItem from="1593350389403" duration="1363000" />
       <workItem from="1593351846684" duration="1407000" />
       <workItem from="1593392891876" duration="1305000" />
+      <workItem from="1593429507312" duration="1705000" />
+      <workItem from="1593431317092" duration="1730000" />
+      <workItem from="1593433212574" duration="1522000" />
     </task>
     <servers />
   </component>
@@ -111,22 +126,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="277" y="157" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1593352758796" />
-    <state width="1054" height="185" key="GridCell.Tab.0.bottom" timestamp="1593394219210">
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom" timestamp="1593434733613">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1054" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593394219210" />
-    <state width="1054" height="185" key="GridCell.Tab.0.center" timestamp="1593394219209">
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1593434733613" />
+    <state width="1323" height="187" key="GridCell.Tab.0.center" timestamp="1593434733613">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1054" height="185" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593394219209" />
-    <state width="1054" height="185" key="GridCell.Tab.0.left" timestamp="1593394219209">
+    <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1593434733613" />
+    <state width="1323" height="187" key="GridCell.Tab.0.left" timestamp="1593434733613">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1054" height="185" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593394219209" />
-    <state width="1054" height="185" key="GridCell.Tab.0.right" timestamp="1593394219210">
+    <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1593434733613" />
+    <state width="1323" height="187" key="GridCell.Tab.0.right" timestamp="1593434733613">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1054" height="185" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593394219210" />
+    <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1593434733613" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1593351178465">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

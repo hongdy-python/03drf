@@ -2,8 +2,11 @@ from django.http import HttpResponse, JsonResponse
 from django.utils.decorators import method_decorator
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
+from rest_framework.parsers import JSONParser, FormParser,MultiPartParser
+from rest_framework.renderers import JSONRenderer, BrowsableAPIRenderer
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework import settings
 from prapp.models import Userlist
 
 
@@ -70,9 +73,14 @@ class UserView(View):
 class UserAPIView(APIView):
 
     def get(self, request, *args, **kwargs):
+        print('123')
+        user_id = kwargs.get("pk")
+        # user_val = Userlist.objects.filter(pk=user_id)
+        user_val = Userlist.objects.get(pk=user_id)
         print(request._request.GET)
         print(request.GET)
         print(request.query_params)
+
         return Response("DRF GET SUCCESS")
 
     def post(self, request, *args, **kwargs):
@@ -80,3 +88,13 @@ class UserAPIView(APIView):
         print(request.POST)
         print(request.data)
         return Response("POST GET SUCCESS")
+
+class StudentAPIView(APIView):
+    # 局部使用解析器
+    # parser_classes = [MultiPartParser]
+
+    def post(self, request, *args, **kwargs):
+        print("POST方法")
+        print(request.data)
+
+        return Response("POST方法访问成功")
